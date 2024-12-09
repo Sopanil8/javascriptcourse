@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            
+background: rgb(3, 71, 95);
+width: 300px;
+height: 350px;
+margin: 4px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box"></div> -->
+     <div id ="result"></div>
+     <script>
+
+        for(let x=1;x<10;x++){
+        let box="<div class ='box'></div>";
+        document.getElementById('result').innerHTML +=box;
+        }
+     </script>
+</body>
+</html>
